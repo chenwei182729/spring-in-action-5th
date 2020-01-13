@@ -1,0 +1,1 @@
+spring init -d=web,jpa,lombok -acom.cninfo.demo -gchapter3-1 --description "Working with data" -b2.1.11.RELEASE  --build=maven rchapter3-1
