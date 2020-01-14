@@ -18,10 +18,9 @@ public class H2DatabaseConfig {
 //                .setType(EmbeddedDatabaseType.H2)
 ////                .addScript("classpath:schema.sql")
 ////                .addScript("classpath:data.sql")
-//                .addDefaultScripts()
+////                .addDefaultScripts()
 //                .build();
 //    }
-
 
     @Bean
     @ConfigurationProperties("spring.datasource.hikari")
